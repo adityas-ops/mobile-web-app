@@ -108,13 +108,11 @@ height: 50%;
 }
 
 .textAli{
-    /* background-color: red; */
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
+    height: 100%;
+
     
 }
 .name{
