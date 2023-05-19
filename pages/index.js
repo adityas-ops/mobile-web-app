@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Share from '@/components/Share'
 import Owner from '@/components/Owner'
 import Items from '@/components/Items'
+import Coupon from '@/components/Coupon'
 
 export default function Home() {
 
@@ -20,6 +21,17 @@ export default function Home() {
      <Share/>
      <Owner/>
       <Items/>
+      <div
+      className={styles.coupon}
+      ><Coupon/></div>
+      
+      <div className={styles.buttonBack}>
+      <button
+      className={styles.button}
+      >
+        Order Now
+      </button>
+      </div>
     </div>
     </>
   )

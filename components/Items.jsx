@@ -109,7 +109,12 @@ function Items() {
             </div>
           ))}
         </div>
+        {/* griding end */}
+        <p className={styles.coupon}>
+            Meals Coupon
+        </p>
       </div>
+     
     </div>
   );
 }

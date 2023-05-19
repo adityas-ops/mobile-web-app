@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    background-color: #0D1317;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  .container::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  .container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .container > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 250px;
+    height: 120px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background:#415663;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container > div:nth-child(1){
+    background: transparent;
+    width: 550px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+  }
+
+  .container > div:nth-child(2){
+    background: transparent;
+    width: 150px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+  }
+
+  .specialT{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-weight: 600;
+  }
+
+  .specialTT{
+    width: 70%;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 12px;
+
+  }
+
+  .specialT1{
+    margin-top: 12px;
+  }
+
+  .mainCard{
+    width: 80%;
+    height: 90%;
+    /* background: #0b98ef; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .cardT{
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+  }
+  .cardTT{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+  }
+.rate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+  .rateI{
+    height: 25px;
+    width: 25px;
+  }
+  .rateT{
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+  }

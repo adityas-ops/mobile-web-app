@@ -1,7 +1,8 @@
 
 .container{
     width: 100%;
-    height: 900px;
+    height: fit-content;
+    /* padding-bottom: 70px; */
     background-color:#28333A;
     display: flex;
     box-shadow: -4px -76px 80px 44px rgba(0,0,0,0.75);
@@ -60,7 +61,7 @@ height: 50%;
 
 .card{
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: #415663;
     display: flex;
     flex-direction: row;
@@ -108,6 +109,7 @@ height: 50%;
 }
 
 .textAli{
+    margin-top: 26px;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
@@ -148,4 +150,13 @@ height: 50%;
 }
 .noddle{
 margin-left: 12px;
+}
+.coupon{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    font-weight: 400;
+    margin-left: 8px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
